@@ -8,13 +8,13 @@
 
 int main() {
     //Define as váriaveis da carta 1
-    char estado1[30];
-    char codigodacarta1[30];
-    char nomedacidade1[30];
-    int populacao1;
-    float area1;
-    float pib1;
-    int pontoturistico1;
+    char estado1 = "Tocantins";
+    char codigodacarta1[30] = "A1";
+    char nomedacidade1[30] = "Palmas";
+    int populacao1 = 302692;
+    float area1 = 2219;
+    float pib1 = 10300000;
+    int pontoturistico1 = 60;
 
     //Define as váriaveis da carta 2
     char estado2[30];
@@ -29,25 +29,25 @@ int main() {
 
     printf ("Vamos cadastrar a primeira carta: \n");
     printf ("\n Qual o codigo da carta: \n");
-    scanf ("%s", &codigodacarta1);
+    scanf ("%s", codigodacarta1);
 
     printf ("Qual o estado: \n");
-    scanf ("%s", &estado1);
+    scanf ("%s", estado1);
 
     printf ("Qual o nome da cidade: \n");
-    scanf ("%s", &nomedacidade1);
+    scanf ("%s", nomedacidade1);
 
     printf ("Qual a população: \n");
-    scanf ("%i", &populacao1);
+    scanf ("%i", populacao1);
 
     printf ("Qual a área em Km: \n");
-    scanf ("%f", &area1);
+    scanf ("%f", area1);
 
     printf ("Qual o PIB: \n");
-    scanf ("%f", &pib1);
+    scanf ("%f", pib1);
 
     printf ("Qual o numero de ponto turistico: \n");
-    scanf ("%i", &pontoturistico1);
+    scanf ("%i", pontoturistico1);
 
     //Cadastro da segunda carta:
     
