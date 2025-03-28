@@ -83,8 +83,8 @@ int main() {
     printf ("Estado: %s \n", estado1);
     printf ("Nome da cidade: %s \n", nomedacidade1);
     printf ("População: %i \n", populacao1);
-    printf ("Area em Km: %f \n", area1);
-    printf ("PIB: %f \n", pib1);
+    printf ("Area em Km: %.2f Km \n", area1);
+    printf ("PIB: %.2f \n", pib1);
     printf ("Ponto turistico: %i \n", pontoturistico1);
     printf ("Densidade Populacional: %.2f \n", (float) populacao1 / area1);
     printf ("PIB per Capita: %.2f \n", (float) pib1 / populacao1);
@@ -96,11 +96,12 @@ int main() {
     printf ("Estado: %s \n", estado2);
     printf ("Nome da cidade: %s \n", nomedacidade2);
     printf ("População: %i \n", populacao2);
-    printf ("Area em Km: %f \n", area2);
-    printf ("PIB: %f \n", pib2);
+    printf ("Area em Km: %.2f Km \n", area2);
+    printf ("PIB: %.2f \n", pib2);
     printf ("Ponto turistico: %i \n", pontoturistico2);
     printf ("Densidade Populacional: %.2f \n", (float) populacao2 / area2);
     printf ("PIB per Capita: %.2f \n", (float) pib2 / populacao2);
+    
 
 
 
